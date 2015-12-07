@@ -1,0 +1,37 @@
+*Para clonar repositorio:
+	>git clone urlDelRepositorio
+    Ej*	>git clone git@someserver.com:somerepository.git
+
+*Para iniciar el repo se tendra que hacer:
+	> git init.
+Nota: Despues de este commit se tendran que agregar los archivos para los commits.
+
+*Para agregar archvos sera:
+	> git add nombreArchivo
+
+*Para hacer el commit el cual empaquetara los archivos agregados sera:
+	> git commit
+	> git commit -m "Comentario"
+
+*Para subir los cambios(el commit) al repositorio:
+	>git commit push
+	>git commit push origin nombreBranch
+
+*Para descargar cambios:
+	>git pull
+	>git pull origin nombreBranch
+
+*Para ver los movimientos echos en el directorio de trabajo (workspace):
+	>git status
+
+*Para esconder cambios y hacer pull o cambiarse de branch sin problemas
+	>git stash
+
+*Para obtener los cambios del stash:
+	>git stash pop
+
+Nota: el stash es una pila en la cual puedes guardar tus cambios, se recomienda no tener tantos registros en el stash, otros comandos utiles para el stash(stash list, stash clear)
+
+*Para ver cambiarse de branch:
+	>git checkout nombreBranch
+
