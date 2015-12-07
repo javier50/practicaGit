@@ -4,7 +4,8 @@
 
 *Para iniciar el repo se tendra que hacer:
 	> git init.
-Nota: Despues de este commit se tendran que agregar los archivos para los commits.
+	
+	Nota: Despues de este commit se tendran que agregar los archivos para los commits.
 
 *Para agregar archvos sera:
 	> git add nombreArchivo
@@ -30,8 +31,13 @@ Nota: Despues de este commit se tendran que agregar los archivos para los commit
 *Para obtener los cambios del stash:
 	>git stash pop
 
-Nota: el stash es una pila en la cual puedes guardar tus cambios, se recomienda no tener tantos registros en el stash, otros comandos utiles para el stash(stash list, stash clear)
+	Nota: el stash es una pila en la cual puedes guardar tus cambios, se recomienda no tener tantos registros en el stash, otros comandos utiles para el stash(stash list, stash clear)
+
+*Para crear un Branch:
+	>git branch nombreBrach
+	>git checkout -b nombreBrach
+	
+	Nota: El segundo crear y se cambia de branch
 
 *Para ver cambiarse de branch:
 	>git checkout nombreBranch
-
