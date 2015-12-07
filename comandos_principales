@@ -41,3 +41,13 @@
 
 *Para ver cambiarse de branch:
 	>git checkout nombreBranch
+
+*Para ver en que branch estas:
+	>git branch
+
+*Para borrar un branch:
+	>git branch -d nombreBranch
+	
+*Para renombrar un branch:
+	>git branch -m nombreBranch nuevoNombraBranch
+	
