@@ -50,4 +50,3 @@
 	
 *Para renombrar un branch:
 	>git branch -m nombreBranch nuevoNombraBranch
-	

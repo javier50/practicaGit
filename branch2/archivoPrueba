@@ -1,0 +1,4 @@
+One minor comment: this will only rename the local branch. It looks like you'll have to do:
+
+git push
+git push origin :old_branch
